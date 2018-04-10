@@ -4,7 +4,7 @@ Usage:
 ```php
 require_once "RuntimeTracker.php";
 
-$rt = new RuntimeTracker;
+$rt = new RuntimeTracker();
 $rt->start();
 ...
 $rt->end();
